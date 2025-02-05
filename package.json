@@ -1,0 +1,19 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Simple Cypress tests",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser chrome"
+  },
+  "author": "Gabriel Nattis",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.0.2",
+    "cypress-multi-reporters": "^2.0.5",
+    "cypress-wait-until": "^3.0.2",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^11.1.0"
+  }
+}
