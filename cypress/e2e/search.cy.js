@@ -15,7 +15,7 @@ describe('DuckDuckGo Search', () => {
         ResultsPage.checkDisplayedUrl('www.android.com')
     })
 
-    it('Should validate the Regions size is greater than 10', () => {
+    it('Should Validate if Regions Size is Greater Than 10', () => {
         ResultsPage.clickOnRegions()
         ResultsPage.checkRegionsArraySize(10)
     })
