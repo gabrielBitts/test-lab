@@ -21,7 +21,7 @@ exports.config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
-    specs: ['./mobile/specs/*.js'],
+    specs: ['./WebdriverIO/specs/*.js'],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -50,7 +50,7 @@ exports.config = {
     //
     capabilities: [
         {
-            'appium:chromedriverExecutable': './chromedriver-linux64/chromedriver',
+            'appium:chromedriverExecutable': './chromedriver-mac-arm64/chromedriver',
             'appium:automationName': 'UiAutomator2',
             platformName: 'Android',
             browserName: 'chrome',
