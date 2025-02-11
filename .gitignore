@@ -1,5 +1,9 @@
 node_modules
 
+appium
+
+chromedriver-linux64
+
 cypress/results
 cypress/screenshots
 cypress/downloads
